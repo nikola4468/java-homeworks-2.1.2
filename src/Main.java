@@ -5,10 +5,8 @@ public class Main {
         int bonus = 0;
         if (refill >= 1000) {
             bonus = refill / 100;
-            balance = balance + refill + bonus;
-        } else {
-            balance = balance + refill;
         }
+        balance = balance + refill + bonus;
         System.out.println(bonus);
         System.out.println(balance);
 
